@@ -48,6 +48,7 @@ header{
 /* profile section */
 .profile{
     padding: 80px;
+
 }
 
 .card{
@@ -85,4 +86,11 @@ header{
 
 .col-md-4{
     padding: 10px;
+}
+
+/* portfolio split */
+.portfolioSplit{
+    height: 100px;
+    background-color: black;
+    color: white;
 }
