@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio{
+    background-image: url('./images/landingPic.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* nav styling */
+
+.navbar{ 
+    background: black;
+}
+.nav-link ,.navbar-brand{ 
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link{ 
+    margin-right: 20px;
+}
+
+.nav-link:hover{ 
+    background: #f4f4f4; 
+    color: #f97300; }
+
+.navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+.navbar-toggler{  
+    background-image: url('./images/burger.jpg') !important;
+}
+
+/* header */
+
+header{
+    height: 30%;
+    color:white;
+}
