@@ -9,6 +9,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
 }
 
 /* nav styling */
@@ -32,33 +33,42 @@
 .navbar-collapse{ 
     justify-content: flex-end;
 }
-
-.navbar-toggler{  
-    background-image: url('./images/burger.jpg') !important;
+.navbar-toggler-icon{
+    color: white;
 }
 
 /* header */
 
+
 header{
     height: 30%;
-    color:white;
 }
 h1.tsn{
     padding: 100px;
     text-align: center; 
+    color:white;
 }
 .tsn{
-    color:white;
+    text-transform: uppercase;
+    font-family: 'Catamaran', sans-serif;
+    position: relative;
+    font-weight: 900;
+    animation: bounce 0.5s; 
+   
+}
+
+.fa-bar{
+    color: white;
 }
 /* profile section */
 .profile{
     padding: 80px;
-
 }
 
 .card{
     box-shadow: 0  0 30px rgba(0,0,0.5);
     border-radius: 15px;
+    padding-bottom: 30px;
 }
 
 .img1, img{
@@ -95,7 +105,24 @@ h1.tsn{
 
 /* portfolio split */
 .portfolioSplit{
-    height: 100px;
     background-color: black;
     color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolioMotto{
+    text-align: center;
+}
+
+
+img.cook, img.tour{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50%;
 }
