@@ -12,6 +12,10 @@
     
 }
 
+a, p, h2{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* nav styling */
 
 .navbar{ 
@@ -26,12 +30,14 @@
     margin-right: 20px;
 }
 
+
 .nav-link:hover{ 
-    background: #f4f4f4; 
-    color: #f97300; }
+    background: #f97300; 
+    color:  #f4f4f4;}
 
 .navbar-collapse{ 
     justify-content: flex-end;
+    width: 50%;
 }
 .navbar-toggler-icon{
     color: white;
@@ -118,6 +124,11 @@ h2{
     text-align: center;
 }
 
+p.works{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
 
 img.cook, img.tour{
     display: block;
@@ -125,4 +136,17 @@ img.cook, img.tour{
     margin-right: auto;
     width: 70%;
     height: 50%;
+}
+
+
+/* footer */
+footer{
+    height: 20px;
+}
+
+.contactInfo{
+    text-align: center;
+    vertical-align: center;
+    padding: 4px;
+    font-size: 12px;
 }
