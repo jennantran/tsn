@@ -75,7 +75,7 @@ h1.tsn{
 }
 
 .card{
-    box-shadow: 0  0 30px rgba(0,0,0.5);
+    box-shadow: 0  0 10px rgba(0,0,0.5);
     overflow:hidden;
     border-radius: 15px;
     padding-bottom: 30px;
@@ -106,10 +106,6 @@ h1.tsn{
     margin-top: -80px;
 } 
 
-.card:hover .img2 , img{
-    border-color: darkcyan;
-    transition: scale(1.1);
-}
 .main-text{
     padding: 30px 0;
     text-align: center;
@@ -131,7 +127,7 @@ h1.tsn{
     padding: 10px;
 }
 
-/* portfolio split */
+/* portfolio */
 .portfolioSplit{
     background-color: black;
     color: white;
