@@ -23,7 +23,7 @@ a, p, h2, h3{
 }
 .nav-link ,.navbar-brand{ 
     color: white;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .nav-link{ 
@@ -71,23 +71,42 @@ h1.tsn{
 }
 /* profile section */
 .profile{
-    padding: 80px;
+    padding: 80px 0;
 }
 
 .card{
     box-shadow: 0  0 30px rgba(0,0,0.5);
+    overflow:hidden;
     border-radius: 15px;
     padding-bottom: 30px;
 }
 
-.img1, img{
+.card:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+}
+
+.img1 img{
     height: 200px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     width: 100%;
 }
+ 
+.img2 img{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid  #fff;
+    margin-top: -80px;
+} 
 
-.card:hover .img1, img{
+.card:hover .img2 , img{
     border-color: darkcyan;
     transition: scale(1.1);
 }
